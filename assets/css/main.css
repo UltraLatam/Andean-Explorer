@@ -1,66 +1,6 @@
+
 /*============================================
-
-   Theme Name: Tourex - Tour & Travel Booking html5 Template
-   Author : Theme_Dox
-   Support: https://themedox.ticksy.com
-   Description: Tourex - Tour & Travel Booking html5 Template
-   Version: 1.0.0
-
-==============================================*/
-/* CSS Index
-==============================================
-
-	// components
-
-	01. Animation
-	02. background
-	03. Breadcrumb
-	04. Button
-	05. minicart
-	06. Mobile Menu
-	07. Nice Select
-	08. OffCanvas
-	09. pagenation
-	10. Preloader
-	11. Scroll Top
-	12. Search
-	13. Section Title
-	14. spacing default responsive
-
-	// layout
-
-    01. about
-	02. ads
-	03. banner
-	04. blog
-	05. booking
-	06. brand
-	07. chose
-	08. contact
-	09. counter
-	10. cta
-	11. destination
-	12. error
-	13. faq
-	14. filter
-	15. flatpicker
-	16. foods
-	17. footer
-	18. Header
-	19. hero
-	20. listing
-	23. location
-	24. map
-	25. shop
-	26. shop
-	27. team
-	28. testimonial
-	29. listing
-	30. login
-
-==============================================*/
-/*============================================
-/*  01. Theme Default CSS
+/*  CSS por defecto
 ==============================================*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&display=swap");
 @font-face {
@@ -115,7 +55,7 @@
 }
 
 /*=============================
-	Typography css start
+	Tipografia
 ===============================*/
 body {
   font-family: var(--tg-ff-body);
@@ -358,7 +298,7 @@ input[type=color] {
 }
 
 /*=============================
-    - Input Placeholder
+Input Placeholder
 ===============================*/
 input,
 textarea {
@@ -378,7 +318,7 @@ textarea {
 }
 
 /*=============================
-    - Common Classes
+Common Classes
 ===============================*/
 .fix {
   overflow: hidden;
@@ -614,7 +554,7 @@ textarea {
   }
 }
 /*=============================
-	04. Button
+	Button
 ===============================*/
 .tg-btn {
   font-weight: 600;
@@ -717,7 +657,7 @@ textarea {
 }
 
 /*=============================
-    10. Preloader
+Preloader
 ===============================*/
 #loading {
   background-color: var(--tg-common-white);
@@ -780,7 +720,7 @@ textarea {
   }
 }
 /*=============================
-    02. background
+ background
 ===============================*/
 .tg-grey-bg {
   background: var(--tg-grey-5);
@@ -795,7 +735,7 @@ textarea {
 }
 
 /*=============================
-	 08. OffCanvas
+OffCanvas
 ===============================*/
 .offCanvas-toggle {
   position: relative;
@@ -948,7 +888,7 @@ textarea {
 }
 
 /*=========================
-      03. Breadcrumb
+Breadcrumb
 ===========================*/
 .tg-breadcrumb-spacing {
   padding-top: 170px;
@@ -1076,7 +1016,7 @@ textarea {
 }
 
 /*=============================
-    11. Scroll Top
+Scroll Top
 ===============================*/
 .scroll__top {
   width: 50px;
@@ -1146,7 +1086,7 @@ textarea {
 }
 
 /*=============================
-	13. Section Title
+Section Title
 ===============================*/
 .tg-section-subtitle {
   font-family: var(--tg-ff-segoepr);
@@ -1190,7 +1130,7 @@ textarea {
 }
 
 /*=============================
-	06. Mobile Menu
+Menu movil
 ===============================*/
 .tgmobile__search {
   padding: 0 20px 25px 25px;
@@ -1548,7 +1488,7 @@ textarea {
 }
 
 /*=============================
-    01. Animation
+Animacion
 ===============================*/
 @keyframes zoom {
   0% {
@@ -1733,7 +1673,7 @@ textarea {
   }
 }
 /*=============================
-	12. Search
+Buscar
 ===============================*/
 .search__popup {
   padding-top: 70px;
@@ -1894,7 +1834,7 @@ textarea {
 }
 
 /*=============================
-	05. minicart
+Carrito de compra
 ===============================*/
 .minicart {
   background: var(--tg-common-white);
@@ -2011,7 +1951,7 @@ textarea {
 }
 
 /*=============================
-	14. spacing default responsive
+Responsive por defecto
 ===============================*/
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .pt-170 {
@@ -2206,7 +2146,7 @@ textarea {
 }
 
 /*=============================
-	07. Nice Select
+Select
 ===============================*/
 .nice-select {
   -webkit-tap-highlight-color: transparent;
@@ -2371,7 +2311,7 @@ textarea {
 }
 
 /*=============================
-	09. pagenation
+Paginacion
 ===============================*/
 .tg-pagenation-wrap nav {
   display: inline-block;
@@ -2421,7 +2361,7 @@ textarea {
 }
 
 /*=============================
-    	18. Header
+Encabezado
 ===============================*/
 .transparent-header {
   position: absolute;
@@ -3129,7 +3069,7 @@ textarea {
 }
 
 /*=============================
-    	19. hero
+Gero
 ===============================*/
 .tg-hero-slider-active {
   height: 740px;
@@ -3574,7 +3514,7 @@ textarea {
 }
 
 /*=============================
-    	05. booking
+Reservas
 ===============================*/
 .tg-booking-form-input-group {
   flex-wrap: wrap;
@@ -4019,7 +3959,7 @@ textarea {
 }
 
 /*=============================
-    15. flatpicker
+Calendario
 ===============================*/
 .flatpickr-calendar {
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
@@ -4192,7 +4132,7 @@ textarea {
 }
 
 /*=============================
-    	01. about
+Acerca
 ===============================*/
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tg-about-thumb-wrap img {
@@ -4311,7 +4251,7 @@ textarea {
 }
 
 /*=============================
-    	20. listing
+Listado
 ===============================*/
 .tg-listing-card-thumb {
   border-radius: 12px 12px 0px 0px;
@@ -5249,9 +5189,7 @@ textarea {
   border-radius: 50%;
 }
 
-/*=============================
-    	07. chose
-===============================*/
+
 .tg-chose-list-title {
   font-size: 20px;
   font-weight: 600;
@@ -5723,7 +5661,7 @@ textarea {
 }
 
 /*=============================
-    	03. banner
+Banner
 ===============================*/
 .tg-banner-video-inner {
   padding: 110px 0;
@@ -6049,7 +5987,7 @@ textarea {
 }
 
 /*=============================
-    	23. location
+Localizacion
 ===============================*/
 .tg-location-wrap {
   border: 1px solid #dbdbdb;
@@ -6329,7 +6267,7 @@ textarea {
 }
 
 /*=============================
-    	28. testimonial
+Testimonio
 ===============================*/
 .tg-testimonial-item {
   box-shadow: 0 0 14px 0 rgba(178, 178, 178, 0.25);
@@ -6529,7 +6467,7 @@ textarea {
 }
 
 /*=============================
-    	04. blog
+Blog
 ===============================*/
 .tg-blog-space {
   padding-bottom: 200px;
@@ -7049,7 +6987,7 @@ textarea {
 }
 
 /*=============================
-    	10. cta
+Cta
 ===============================*/
 .tg-cta-wrap {
   border-radius: 25px;
@@ -7242,7 +7180,7 @@ textarea {
 }
 
 /*=============================
-    	17. footer
+Pie de pagina
 ===============================*/
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tg-footer-widget {
@@ -7424,7 +7362,7 @@ textarea {
 }
 
 /*=============================
-    	06. brand
+Marcas y alianzas
 ===============================*/
 .tg-brand-slide .swiper-slide {
   width: 240px !important;
@@ -7455,7 +7393,7 @@ textarea {
 }
 
 /*=============================
-    	11. destination
+Destinos
 ===============================*/
 .tg-destination-item {
   border: 1px solid var(--tg-border-3);
@@ -7504,7 +7442,7 @@ textarea {
 }
 
 /*=============================
-    	09. counter
+Contador
 ===============================*/
 .tg-counter-title {
   font-size: 90px;
@@ -7546,7 +7484,7 @@ textarea {
 }
 
 /*=============================
-    	02. ads
+Anuncio
 ===============================*/
 .tg-ads-wrap {
   border-radius: 20px;
@@ -7717,7 +7655,7 @@ textarea {
 }
 
 /*=============================
-    	16. foods
+Foods
 ===============================*/
 .tg-foods-title {
   font-weight: 500;
@@ -7748,7 +7686,7 @@ textarea {
 }
 
 /*=============================
-    	14. filter
+Filtro
 ===============================*/
 .tg-filter-sidebar {
   background: #f9f9f9;
@@ -7972,7 +7910,7 @@ textarea {
 }
 
 /*=============================
-    	24. map
+Maps
 ===============================*/
 .tg-map-full {
   padding-left: 35px;
@@ -7996,7 +7934,7 @@ textarea {
 }
 
 /*=============================
-    	29. listing
+Listado
 ===============================*/
 .tg-tour-details-video-title {
   font-size: 36px;
@@ -8723,7 +8661,7 @@ textarea {
 }
 
 /*=============================
-    	26. shop
+Tienda
 ===============================*/
 .tg-shop-sidebar {
   margin-right: -23px;
@@ -9496,7 +9434,7 @@ textarea {
 }
 
 /*=============================
-    	13. faq
+Preguntas frecuentes
 ===============================*/
 .tg-faq-content .accordion-button:focus {
   box-shadow: none;
@@ -9537,7 +9475,7 @@ textarea {
 }
 
 /*=============================
-    	27. team
+Equipo
 ===============================*/
 .tg-team-wrap {
   border: 1px solid var(--tg-border-3);
@@ -9697,7 +9635,7 @@ textarea {
 }
 
 /*=============================
-    	08. contact
+Contacto
 ===============================*/
 .tg-contact-info-wrap {
   border: 1px solid #e8e8e8;
@@ -9755,7 +9693,7 @@ textarea {
 }
 
 /*=============================
-    	12. error
+Error
 ===============================*/
 .tg-error-content h2 {
   font-size: 50px;
@@ -9788,7 +9726,7 @@ textarea {
 }
 
 /*=============================
-    	30. login
+Inicio de sesión
 ===============================*/
 .tg-login-wrapper {
   padding: 100px 85px 100px;
